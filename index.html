@@ -6,25 +6,42 @@
     <title>Pied Piper Landing Page</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body id="logotravel">
     <div class="navbar">
-      <div class="navigate-logo">piedpiper</div>
-      <ul class="navigate-bar navigate-buttons">
-        <li class="navigate-buttons">the problem</li>
-        <li class="navigate-buttons">|</li>
-        <li class="navigate-buttons">PiedPiperCoin</li>
-        <li class="navigate-buttons">|</li>
-        <li class="navigate-buttons">the team</li>
+      <a href="#logotravel"
+        ><img class="logo_img" src="images/Vector1.png" width="45" height="45"
+      /></a>
+      <a href="#logotravel"
+        ><img
+          class="logo_img"
+          src="images/Vector2.png"
+          width="184"
+          height="45"
+          angle="0 deg"
+          opacity="1"
+          left="0.04px"
+      /></a>
+      <ul class="navigate_bar">
+        <li class="navigate_buttons button_click">
+          <a class="link" href="#section1">the problem</a>
+        </li>
+        <li class="navigate_buttons">|</li>
+        <li class="navigate_buttons button_click">
+          <a class="link" href="#section2">PiedPiperCoin</a>
+        </li>
+        <li class="navigate_buttons">|</li>
+        <li class="navigate_buttons button_click button_last">
+          <a class="link" href="#section3">the team</a>
+        </li>
       </ul>
     </div>
     <section class="jumbo">
-      <div class="jumbo_container">
-        <div class="jumbo__message">PiperNet Is Here</div>
-      </div>
+      <div class="jumbo_message">PiperNet Is Here</div>
     </section>
-    <div>
+    
+    <section id="section1" class="problem">
       <h1>The Problem</h1>
-      <a>
+      <div>
         Beneath the flashy homepages of your favorite sites lurk Hooli™ and
         other evil corporations out to hoard and sell your most personal data.
         What was built to be the ultimate platform for the free sharing of
@@ -34,32 +51,36 @@
         powered by universal compression, accelerated scheduling allocation, and
         end-to-end encryption. Put even simpler — it’s the internet, completely
         decentralized.
-      </a>
-    </div>
-    <div>
-      We’re in this together! All of our computers and phones join in a network
-      to make the strongest supercomputer the world has ever seen.
-    </div>
-    <div>
-      <h2>Introducing PiedPiperCoin</h2>
-      <a>
+      </div>
+    </section>
+    <section class="hero">
+      <div class="hero_message">
+        We’re in this together! All of our computers and phones join in a
+        network to make the strongest supercomputer the world has ever seen.
+      </div>
+    </section>
+    <div id="section2">
+      <h1>Introducing PiedPiperCoin</h1>
+      <p>
         Pied Piper's new internet is built for users, by users. You supply the
         storage, compute, and networking resources that power our entire
         decentralized web.
-      </a>
-      <a>
+      </p>
+      <p>
         Now there's a way to give credit where credit is due. Compute credit,
         that is! The more you share your device resources, the more
         PiedPiperCoin you receive. Whether you're a developer with an app ready
         for market, or just an Average Joe with a smartphone you'll love all you
         can do with PiedPiperCoin.
-      </a>
+      </p>
     </div>
-    <div>The Team</div>
-    <div>
-      All other trademarks and copyrights are the property of their respective
-      owners. Use of these names, trademarks and brands does not imply
-      endorsement.
+    <div id="section3">
+      <h1>The Team</h1>
+      <p>
+        All other trademarks and copyrights are the property of their respective
+        owners. Use of these names, trademarks and brands does not imply
+        endorsement.
+      </p>
     </div>
   </body>
 </html>

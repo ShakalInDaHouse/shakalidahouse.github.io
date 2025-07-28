@@ -1,5 +1,4 @@
 body {
-  box-sizing: border-box;
   max-width: 1219px;
   padding-left: 55px;
   padding-right: 55px;
@@ -9,41 +8,104 @@ body {
 .navbar {
   position: sticky;
   top: 0;
+  text-align: right;
   background-color: #007765;
+  padding: 27.5px 55px 27.5px 55px;
 }
 
-.navigate-logo {
+.navigate_bar {
   display: inline-block;
-  margin: auto 502px auto 55px;
-}
-
-.navigate-bar {
   list-style: none;
+  margin: 0px;
 }
 
-.navigate-buttons {
+.logo_img {
+  position: absolute;
+  top: 19.5px;
+  left: 55px;
+}
+
+.logo_img:hover {
+  outline-color: #0b93e2;
+  outline-style: solid;
+  outline-width: 2px;
+}
+
+.button_click:hover {
+  text-decoration: underline #0b93e2 2px;
+}
+
+.navigate_buttons {
   display: inline-block;
+  padding: 2.5px 7px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #fff;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button_last {
+  padding-right: 0px;
 }
 
 .jumbo {
   padding-top: 160px;
   padding-bottom: 160px;
-  background-image: url(images/image1.png);
+  background-image: url(images/jumbo.png);
   background-size: cover;
   background-position: center center;
 }
 
-.jumbo_container {
-}
-
-.jumbo__message {
+.jumbo_message {
   padding-top: 6px;
   padding-bottom: 5px;
   color: #fff;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 72px;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
+}
+
+.hero {
+  padding: 145.5px 163px;
+  background-image: url(images/hero.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero_message {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  leading-trim: none;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 64px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #007765;
+}
+
+.problem {
+  background-color: #EEEEEE;
 }
