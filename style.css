@@ -38,7 +38,7 @@ body {
 .navigate_buttons {
   display: inline-block;
   padding: 2.5px 7px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 24px;
   leading-trim: NONE;
@@ -66,8 +66,8 @@ body {
 }
 
 .jumbo_message {
-  padding-top: 6px;
-  padding-bottom: 5px;
+  padding-top: 5.5px;
+  padding-bottom: 5.5px;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -96,6 +96,9 @@ body {
 }
 
 h1 {
+  padding-top: 5.5px;
+  padding-bottom: 5.5px;
+  margin: 0px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 64px;
@@ -107,5 +110,75 @@ h1 {
 }
 
 .problem {
+  padding: 78px 55px;
+  background-color: #eeeeee;
+}
+
+.problem_message {
+  padding: 52px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+p {
+  margin: 0px;
+}
+
+.ppc {
+  padding: 78px 55px;
+  background-color: #ffffff;
+}
+
+.ppc_logo {
+  float: left;
+  margin-right: 45px;
+}
+
+.ppc_message {
+  padding: 26.5px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.the_team {
   background-color: #EEEEEE;
+  padding: 70px 55px;
+}
+
+.team_table {
+
+}
+
+.team_line {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.team_foto {
+  display: inline-block;
+  padding: 0px 91px;
+  margin: 0px;
+}
+
+.bottom_stage {
+  padding: 60px 339.5px;
+  background-color: #333333;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
 }
