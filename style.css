@@ -1,3 +1,5 @@
+@import url("normalize.css");
+
 body {
   max-width: 1219px;
   padding-left: 55px;
@@ -149,25 +151,53 @@ p {
 }
 
 .the_team {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   padding: 70px 55px;
 }
 
 .team_table {
-
+  margin-bottom: 44px;
 }
 
 .team_line {
   list-style: none;
   text-align: center;
-  padding: 0px;
-  margin: 0px;
+  padding: 3.2px 0px;
+  margin: 10px 0px;
 }
 
 .team_foto {
   display: inline-block;
-  padding: 0px 91px;
-  margin: 0px;
+  padding: 0px 51px;
+  margin: 15px 0px;
+}
+
+.team_foto_image {
+  padding: 12px 40px;
+}
+
+.team_name {
+  padding: 2.5px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #007765;
+}
+
+.team_job_title {
+  padding: 2px 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  font-style: italic;
+  color: #000000;
 }
 
 .bottom_stage {
